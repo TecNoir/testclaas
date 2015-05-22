@@ -1,0 +1,210 @@
+@import url(mini-reset.css);
+
+/* ----------------------------------------------------- Browser specific CSS */
+
+.js div { } /* apply only on JavaScript enabled browsers */
+.ie7 div { } /* apply only on Internet Explorer 7 and below */
+.ie6 div { } /* apply only on Internet Explorer 6 and below */
+
+/* ----------------------------------------------------- smaller screens */
+
+@media only screen and (max-width: 640px) { }
+
+/* ----------------------------------------------------- huge screens */
+
+@media only screen and (min-width: 1280px) { }
+
+/**********************************************************************/
+/*																							 */
+/*								Section’s												 */
+/*																							 */
+/**********************************************************************/
+
+#Header 		{height: 200px;}
+
+#Navigation {	 width: 244px;
+				 border: none;
+				 float: left;
+				 margin-right: 20px;
+				 margin-bottom: 20px;
+
+				}
+				
+					
+#Main,#Main2,
+#Main3		{float: left;
+				 width: 1080px;
+				 line-height:1.9em;
+				 padding: 15px;
+				 margin-left: 80px;
+				 margin-bottom:35px;
+				 background-color: #f5f5f5;
+				 border-style: ridge;
+				 border-color: #c0c0c0;}
+							
+							
+#Main4 		{float: left;
+				 width: 1080px;
+				 line-height:1.9em;
+				 padding: 15px;
+				 margin-left: 350px;
+				 margin-bottom:35px;
+				 background-color: #f5f5f5;
+				 border-style: ridge;
+				 border-color: #c0c0c0;}
+				 
+#Footer		{float: left;
+				 width:98%;}
+	
+/*			Ende Sections		*/
+	
+	
+/**********************************************************************/
+/*																							 */
+/*								Allgemeines												 */
+/*																							 */
+/**********************************************************************/	
+
+body	{background-color: #c0c0c0;}
+		
+div	{margin: 7px;
+		 padding: 2 px;
+		 text-align: center;
+		 font-family: "Consolas";}
+		 
+h1		{font-family: Consolas;}
+
+
+
+/**********************************************************************/
+/*																							 */
+/*								Listen													 */
+/*																							 */
+/**********************************************************************/
+
+ul	{list-style-type: none;}		 
+
+li a  {border: 3px solid gray;
+	    width: 100px;
+       margin-bottom 8px;
+       margin-top: 8px;
+       margin-right: 150px;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	    padding-bottom: 15px;
+	    padding-top: 15px;
+	    display: block;
+	    color: #1e90ff;
+	    text-align: center;}
+
+li a:hover {background-color: #f5f5f5;}	
+
+
+
+/**********************************************************************/
+/*																							 */
+/*								Logos & Boxes											 */
+/*																							 */
+/**********************************************************************/
+
+.partnerlogobox {float: right;
+ 				height: 107px;
+  				margin-left: 80px;
+   				margin-top: 32px;
+   				width: 400px;
+   				padding-right: 50px;
+   			}
+    								
+				  
+.partnerlogo	 {float: right;
+    					height: 90px;
+    					margin-left: 14px;
+ 						width: 90px;}
+    				
+.HannusLogo 	{float: left;	
+				  	 margin: 5px;
+					 margin-right: 200px;
+					 width: 400px;
+				 	 height:110px;}
+
+.Suchformular {
+				float: left;
+				margin-right: 25px;
+				margin-top: 75px;
+
+
+}
+				 			
+ 					  
+.SocialMediaLogoBox {float: left;
+ 					   	height: 120px;
+  						 	margin-left: 596px;
+   						margin-top: 22px;
+   						padding-bottom: 7px;
+   						width: 540px;}
+
+    								
+.social_media_logo{ 		float: right;
+    						height: 107px;
+    						margin-left: 14px;
+    						width: 107px;
+    						padding-bottom: 50px;
+    						color: red;
+    					}				  
+
+div.kreis {
+
+		position: absolute;
+		top: 300px;
+		right: 20px;
+
+		border-radius: 50%;
+		border: 2px solid black;
+		height: 200px;
+		width: 200px;
+		background-image: url(BillBill.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 200px;
+
+}
+
+
+			
+			
+#left{text-align: left;}
+							
+.Titel {font-style: italic;}
+
+.Person {font-weight: bold;}
+
+
+		
+
+			
+
+
+.impress{text-align: center;}
+
+a:link {color: green;}
+
+a:visited {color: red;}
+
+a:empty {color: yellow;}
+
+#impressDesign 		{float: left;
+							 width: 900px;
+					 		 height: 400px;
+					 		 border: 2px solid black;
+							 border-bottom-style: groove;
+							 margin-top: 80px;
+							 margin-left: 400px;
+							 font-family: consolas;
+							 padding: 10px;
+							 background-color: #f5f5f5;
+					 		 line-height: 1.6em;
+					 		 text-align: center;}
+					 
+
+
+				
