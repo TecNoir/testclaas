@@ -9,32 +9,7 @@
 		<link href="HannusWeb_Eigenbau.css" rel="stylesheet" type="text/css">
 		<link href="FontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-		<script type="text/javascript">
-
-							
-
-				function changeStyle () {
-					
-
-					
-										
-					var elements=document.getElementsByName("zugriff");
-					for(var i=0; i<elements.length;i++){
-						elements[i].style.color = "red";
-					}
-				};
-
-				function trigger () {
-
-					var mouseMe = document.getElementsByTagName("h1", "p")
-					mouseMe.addEventListener("mouseover", changeStyle);
-				}
-
-				
-
-
-
-			</script>
+		
 
 			<script type="text/javascript">
 				
@@ -235,6 +210,29 @@
 		</div>
 		</div>		
 
+<script type="text/javascript">
+
+				var elem = document.getElementsByTagName("h1");
+					elem.addEventListener("mouseover", changeStyle);			
+
+				function changeStyle () {
+					
+
+					
+										
+				var elements=document.getElementsByName("zugriff");
+					for(var i=0; i<elements.length;i++){
+						elements[i].style.color = "red";
+					}
+				}
+
+				
+
+				
+
+
+
+			</script>
 
 	</body>
 </html>
