@@ -9,6 +9,27 @@
 		<link href="HannusWeb_Eigenbau.css" rel="stylesheet" type="text/css">
 		<link href="FontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+			<script type="text/javascript">
+
+			function newBut () {
+
+			var dasEl = document.getElementById('every');
+			var btn = document.createElement("button");
+			var btnTitel = document.createTextNode("Neuer Button");
+			btn.appendChild(btnTitel);
+			dasEl.appendChild(btn);
+			btn.style.backgroundColor ="red";
+			btn.style.borderRadius = "5px";
+			btn.style.position = "absolute";
+			btn.style.top = "60px";
+			btn.style.left = "230px";
+
+			}
+
+
+
+			</script>
+
 		
 
 			<script type="text/javascript">
@@ -21,7 +42,7 @@
 							alert("Hallo" + benutzer + ", da bist du ja wieder.");
 						else
 							alert('Hallo, hier ist die Hannus-Webseite.');
-				} 
+				} */
 			</script>
 
 
@@ -48,7 +69,7 @@
 
 
 	</head>
-	<body>
+	<body id='every' onload="newBut();">
 		
 		<div id="Header">
 		<!-- Das Hannus Logo -->
